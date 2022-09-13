@@ -1,0 +1,45 @@
+aside{
+background-color: pink;
+}
+
+main{
+background-color: yellow;
+}
+
+section{
+background-color: blue;
+}
+
+.container{
+    display: flex;
+    flex-direction: space-between;
+}
+article{
+height: 100%;
+width: 200px;
+border: 1px solid green;
+
+
+}
+.circle{
+@media screen and (min-width: 500px)
+}
+
+    aside{
+        width: 200px;
+
+    }
+    main{
+        width: 300px;
+        background-color: black;
+    }
+    section{
+        width: 200px;
+    }
+    .container{
+        flex-direction: row;
+        
+
+        
+    }
+
